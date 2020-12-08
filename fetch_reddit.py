@@ -18,8 +18,13 @@ from os import path
 
 print("\nFetching top posts from r/popular...\n")
 
+### WARNING!!!
+## YOU NEED TO UPDATE THE CLIENT ID AND CLIENT SECRET TO MAKE THIS WORK
+## TO FIND HOW TO GET A CLIENT ID AND CLIENT SECRET SEE:
+## https://www.geeksforgeeks.org/how-to-get-client_id-and-client_secret-for-python-reddit-api-registration/
+
 reddit = praw.Reddit(client_id="DpRMmWJIniC52A",
-     client_secret="Y4N1L3C_CvJ0xlf8WfQkA9dmC8Ou9w", # in a real production system we would not commit the client_secret to the github repository
+     client_secret="Y4N1L3C_CvJ0xlf8WfQkA9dmC8Ou9w", 
      user_agent="get latest posts from r/popular"
 )
 
