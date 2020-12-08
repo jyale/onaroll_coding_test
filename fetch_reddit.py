@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 
-# Onaroll coding test
-# Author: John Maheswaran
-# http://www.linkedin.com/in/johnm6
+# Instructions to run:
+
+# Run this command from command line to run the Python script
+# `./fetch_reddit.py`
+
+# If you have any issues, check that the file is executable:
+# `chmod +x fetch_reddit.py`
+
+# Install any libraries that may be missing for example:
+# `pip3 install praw`
+# `pip3 install cloudpickle`
 
 import praw, cloudpickle
 import os.path
