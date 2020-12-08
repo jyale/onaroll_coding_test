@@ -1,6 +1,11 @@
 # onaroll_coding_test
 Coding Test for Onaroll - Reddit API fetching
 
+## **Solution:**
+
+See here for the solution:
+https://github.com/jyale/onaroll_coding_test/blob/main/fetch_reddit.py
+
 ## **Onaroll Backend Coding Test:**
 
 ## **Parameters**
